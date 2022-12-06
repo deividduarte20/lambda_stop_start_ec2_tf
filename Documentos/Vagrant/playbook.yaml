@@ -1,0 +1,5 @@
+- name: Trigger running roles  
+  hosts: localhost
+  connection: local
+  roles:
+  - role: pacotes

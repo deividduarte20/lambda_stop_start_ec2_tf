@@ -1,0 +1,2 @@
+[servidor]
+desafio06 ansible_host=localhost ansible_user=vagrant ansible_password=vagrant ansible_become=true

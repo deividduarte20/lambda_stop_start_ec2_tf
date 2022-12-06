@@ -1,0 +1,33 @@
+---
+- name: Update all packages to their latest version Debian
+  ansible.builtin.apt:
+    name: "*"
+    state: latest
+
+- name: Instalando pacotes essenciais
+  apt:
+    name:
+      - vim
+      - net-tools
+      - telnet
+      - nmap
+      - curl
+      - unzip
+      - wget
+      - htop
+      - nginx
+    state: present
+
+- name: Set a hostname
+  ansible.builtin.hostname:
+    name: DevOps
+
+- name: Copy file with owner and permissions
+  ansible.builtin.copy:
+    src: index.html
+    dest: /usr/share/nginx/html/
+
+- name: Start service nginx, if not started
+  ansible.builtin.service:
+    name: nginx
+    state: started
