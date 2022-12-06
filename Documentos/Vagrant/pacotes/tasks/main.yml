@@ -25,7 +25,7 @@
 - name: Copy file with owner and permissions
   ansible.builtin.copy:
     src: index.html
-    dest: /usr/share/nginx/html/
+    dest: /var/www/html/
 
 - name: Start service nginx, if not started
   ansible.builtin.service:
