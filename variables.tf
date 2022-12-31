@@ -27,7 +27,7 @@ variable "sched_expr" {
 
 variable "lambda_env" {
   default = {
-    KEY   = "automate"
-    VALUE = "Auto-Shutdown"
+    KEY   = "schedule"
+    VALUE = "true"
   }
 }
