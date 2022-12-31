@@ -50,7 +50,7 @@ key: schedule value: true
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_lambda_env"></a> [lambda\_env](#input\_lambda\_env) | n/a | `map` | <pre>{<br>  "KEY": "automate",<br>  "VALUE": "Auto-Shutdown"<br>}</pre> | no |
+| <a name="input_lambda_env"></a> [lambda\_env](#input\_lambda\_env) | n/a | `map` | <pre>{<br>  "KEY": "schedule",<br>  "VALUE": "true"<br>}</pre> | no |
 | <a name="input_lambda_timeout"></a> [lambda\_timeout](#input\_lambda\_timeout) | n/a | `number` | `600` | no |
 | <a name="input_profile"></a> [profile](#input\_profile) | n/a | `string` | `"default"` | no |
 | <a name="input_project"></a> [project](#input\_project) | n/a | `string` | `"lambda-manager-ec2"` | no |
