@@ -20,14 +20,14 @@ variable "tags" {
 
 variable "sched_expr" {
   default = {
-    start = "cron(0 07 ? * * *)"
-    stop  = "cron(45 10 ? * * *)"
+    start = "cron(0 10 ? * * *)"
+    stop  = "cron(00 21 ? * * *)"
   }
 }
 
 variable "lambda_env" {
   default = {
-    KEY   = "automate"
-    VALUE = "Auto-Shutdown"
+    KEY   = "schedule"
+    VALUE = "true"
   }
 }
