@@ -54,5 +54,5 @@ key: schedule value: true
 | <a name="input_lambda_timeout"></a> [lambda\_timeout](#input\_lambda\_timeout) | n/a | `number` | `600` | no |
 | <a name="input_profile"></a> [profile](#input\_profile) | n/a | `string` | `"default"` | no |
 | <a name="input_project"></a> [project](#input\_project) | n/a | `string` | `"lambda-manager-ec2"` | no |
-| <a name="input_sched_expr"></a> [sched\_expr](#input\_sched\_expr) | n/a | `map` | <pre>{<br>  "start": "cron(0 07 ? * * *)",<br>  "stop": "cron(45 10 ? * * *)"<br>}</pre> | no |
+| <a name="input_sched_expr"></a> [sched\_expr](#input\_sched\_expr) | n/a | `map` | <pre>{<br>  "start": "cron(0 10 ? * * *)",<br>  "stop": "cron(00 21 ? * * *)"<br>}</pre> | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | n/a | `map` | <pre>{<br>  "Name": "lambda-manager-ec2",<br>  "Product": "lambda",<br>  "Team": "sre"<br>}</pre> | no |
