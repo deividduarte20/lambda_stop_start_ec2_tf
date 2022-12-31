@@ -1,4 +1,4 @@
-## Esse projeto consiste em provisionar agendamenta de stop/start de instâncias EC2
+## Esse projeto consiste em provisionar agendamento de stop/start de instâncias EC2
 
 ### Para inserir instâncias no desligamento por horário basta inserir tag na instância desejada
 
