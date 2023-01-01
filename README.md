@@ -56,3 +56,4 @@ key: schedule value: true
 | <a name="input_project"></a> [project](#input\_project) | n/a | `string` | `"lambda-manager-ec2"` | no |
 | <a name="input_sched_expr"></a> [sched\_expr](#input\_sched\_expr) | n/a | `map` | <pre>{<br>  "start": "cron(0 10 ? * * *)",<br>  "stop": "cron(00 21 ? * * *)"<br>}</pre> | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | n/a | `map` | <pre>{<br>  "Name": "lambda-manager-ec2",<br>  "Product": "lambda",<br>  "Team": "sre"<br>}</pre> | no |
+
