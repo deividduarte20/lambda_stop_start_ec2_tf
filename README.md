@@ -7,13 +7,19 @@ key: schedule value: true
 ### Em variable expr no arquivo de variables.tf ajuste o horário necessário lembrando que são 3 horas a frente, exemplo se você deseja efetuar o stop no horário de 18:00 insira 21:00.
 
 ## Baixe o projeto
-`git clone https://github.com/deividduarte20/lambda_stop_start_ec2_tf.git`
+```bash
+git clone https://github.com/deividduarte20/lambda_stop_start_ec2_tf.git
+```
 
 ## Inicie o terraform
-`terraform init`
+```
+terraform init
+```
 
 ## Aplique a infra como código
-`terraform apply`
+```bash
+terraform apply
+```
 
 ## Requirements
 
